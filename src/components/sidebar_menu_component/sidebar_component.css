@@ -1,0 +1,32 @@
+#menu {
+  background-color: #aaaaaa;
+}
+#title {
+  margin-left: 20px;
+}
+
+.nav-text {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 0px 8px 16px;
+  list-style: none;
+  height: 60px;
+  color: #a3a3a3;
+}
+
+.nav-text a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 18px;
+  width: 95%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
+  border-radius: 4px;
+}
+
+.nav-text a:hover {
+  background-color: #aaaaaa15;
+}

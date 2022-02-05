@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  margin-left: 310px;
+}
+.paper {
+  margin-left: 50px;
+  width: 500px;
+  height: 540px;
+  font-size: 8px;
+  padding: 10px 20px 10px 10px;
+}
+#paper1 {
+  background-color: #ffffff;
+  border-radius: 20px;
+}
+#paper2 {
+  background-color: #ffffff;
+  border-radius: 20px;
+  overflow-y: scroll;
+}
+#paper_title {
+  font-size: 20px;
+  color: rgb(116, 116, 116);
+}
+.detail_display {
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  font-weight: bolder;
+  color: rgb(197, 197, 197);
+}
+#detail {
+  color: #6e6e6e;
+  font-weight: lighter;
+}
+#divider {
+  color: rgb(199, 199, 199);
+  width: 450px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.accordion_detail_display {
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+
+  color: #6e6e6e;
+  background-color: transparent;
+}
+.accordion_detail_display #detail {
+  margin-left: 100px;
+}
+
+#export {
+  padding: 30px 30px 30px 30px;
+  margin-left: 400px;
+  margin-top: 50px;
+}
